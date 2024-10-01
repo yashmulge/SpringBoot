@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springboot.service.StudentServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.094 s <<< FAILURE! -- in com.example.springboot.service.StudentServiceImplTest
+com.example.springboot.service.StudentServiceImplTest.testUpdateStudent -- Time elapsed: 0.070 s <<< ERROR!
+java.lang.RuntimeException: Student not found
+	at com.example.springboot.service.StudentServiceImpl.updateStudent(StudentServiceImpl.java:66)
+	at com.example.springboot.service.StudentServiceImplTest.testUpdateStudent(StudentServiceImplTest.java:139)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
